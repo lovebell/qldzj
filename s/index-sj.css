@@ -1,0 +1,243 @@
+html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,b,u,i,center,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td,article,aside,canvas,details,embed,figure,figcaption,footer,header,hgroup,menu,nav,output,ruby,section,summary,time,mark,audio,video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: .985em;
+	font-family: arial,微软雅黑;
+	vertical-align: baseline;
+	color: #FF0000;
+}
+
+a {
+	text-decoration: none;
+}
+
+article,aside,details,figcaption,figure,footer,header,hgroup,menu,nav,section {
+	display: block;
+}
+
+body {
+	background: #fff;
+}
+
+ol,ul,li {
+	list-style: none;
+}
+
+blockquote,q {
+	quotes: none;
+}
+
+blockquote:before,blockquote:after,q:before,q:after {
+	content: '';
+	content: none;
+}
+
+ 
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+
+input,button,select,textarea {
+	outline: none;
+	padding: 0px;
+}
+
+textarea {
+	resize: none;
+	overflow: hidden;
+}
+
+i,em,b {
+	font-style: normal;
+	font-weight: normal;
+}
+
+.section{margin:0.3em 0.3em 0.3em; padding:0.3em 0.3em 0.3em 0.3em; background-color:#ffffff;}
+
+.top-img {
+	width: 100%-0.2em;
+	border-top-width: .1em ;
+	border-top-color: #FF6601;
+	border-top-style: solid;
+	border-right-width: .1em ;
+	border-right-color: #FF6601;
+	border-right-style: solid;
+	border-left-width: .1em ;
+	border-left-color: #FF6601;
+	border-left-style: solid;
+	background-color: #FF6601;
+	margin:2.2em 0em 0em 0em;
+}
+
+.top-img img { width:100%;padding:0em 0em 0em 0em;}
+
+.page_nav {
+	z-index: 1000;
+	top: 0px;
+	left: 0;
+	height: 2.0em;
+	border-bottom: 1px solid #d6d6d6;
+	position: fixed;
+	background: #f7f7f7;
+	width: 100%;
+	text-align: center;
+	line-height: 2.2em;
+	font-size: 1.2em;
+	color: #FF0000;
+}
+
+.page_nav .return {
+	height: 2.0em;
+	width: 2.5em;
+	text-align: center;
+	border-right: 1px solid #dbdbdb;
+	box-shadow: 1px 0 1px #fff;
+	display: block;
+	position: absolute;
+	left: 0;
+}
+
+.page_nav .return img {
+	width: 1.35em;
+	height: 1.35em;
+	padding: 0.4em 0;
+}
+
+.page_nav .home {
+	height: 2.0em;
+	width: 2.5em;
+	text-align: center;
+	border-left: 1px solid #dbdbdb;
+	box-shadow: -1px 0 1px #fff;
+	display: block;
+	position: absolute;
+	right: 0;
+}
+
+.page_nav .home img {
+	width: 1.35em;
+	height: 1.35em;
+	padding: 0.4em 0;
+}
+
+.type_main {
+	margin-top: 2.4em;
+	margin-bottom: 0px;
+}
+
+.type_main table {
+	text-align: center;
+	width: 100%;
+	line-height: 2.2em;
+	font-size: 1em;
+}
+
+.type_main table td {
+	border: 1px dotted #dbdbdb;
+}
+
+.type_main table a {
+	color: #666;
+}
+
+.type_main_menu {
+	margin-top: 0px;
+	margin-bottom: 0px;
+	background-color: #FF6600;
+	border-left: .1em  #ff6600 solid;
+	border-right: .1em  #ff6600 solid;
+}
+
+.type_main_menu  table {
+	text-align: center;
+	width: 100%;
+	line-height: 2.2em;
+	font-size: 1em;	
+}
+
+.type_main_menu  table td {
+	border: 1px solid #FADF71;
+}
+
+.type_main_menu  table a {
+	color: #FADF71;
+}
+.bzjs{
+	line-height:160%;color: #FF0000;background-color: #FF6600;font-size: 0.95em;padding: 1em 0.6em 1em 0.6em;
+}
+
+/* CSS Document */
+caption, th{text-align:left}
+h1, h2, h3, h4, h5, h6{font-weight:normal}
+blockquote, q{quotes:none} 
+blockquote:before, blockquote:after, q:before, q:after{content:''; content:none}
+:link, :visited{text-decoration:none}
+/* global style */
+body{font-size:100%; line-height:100%; font-family:"微软雅黑"; color:#111111; background-color:#eeeeee;}
+a{color:#000000; text-decoration:none; outline:none}
+a:link, a:activied{color:#000000}
+
+
+.bintro{overflow:hidden}
+.bintro p{color:#666666; line-height:1.2em; font-size:.875em; max-height:72px; word-wrap: break-word; word-break:break-all;  overflow: hidden;}
+.bintro .dleft {color:#666666;  font-size:.875em; float:left;}
+.bintro .dright {color:#666666;  font-size:.875em; float:right;}
+
+
+/*common*/
+.top_sign, .recent, .top_recom,
+.topnav a, .top_sign span, .usr_sign a, .recent a, .footer_nav a, .recent a, .list_nav a, .btm_nav a, .header span, .header a, .pages a, .pages span, .tab-menu a, .tab-menu span, .blist span, .blist a, .clist span, .clist a, .binfo a, .b_l, .b_r{display:block;}
+.title-menu{padding-bottom:0em; font-size:.95em; position:relative;text-align: center;}
+.title{padding-bottom:0em; font-size:1.1em; position:relative;text-align: center;}
+.title .b_r{position:absolute; right:-5px; top:-5px;}
+.title .more{font-size:.875em}
+.blist{ }
+.blist h4{color:#111111; font-size:1em; margin-bottom:5px}
+.blist li, .clist li{position:relative; border-bottom:1px dashed #dddddd; padding:10px 0}
+.blist li a{font-size:1em}
+.blist .item_more, .clist .item_more{text-align:center; border-bottom:0 none}
+.blist span{height:36px; line-height:36px;}
+.blist .head{background:#eeeeee; }
+.blist .head , .blist .row{height:auto; line-height:normal;text-align:center;}
+.blist .head span, .blist .row span{display:block; float:left; height:auto; line-height:normal;}
+.blist.t3 .head span, .blist.t3 .row span{width:33%}
+.blist.t4 .head span, .blist.t4 .row span{width:25%}
+.blist .col_vg{ }
+.blist .tname a{display:inline-block;}
+
+
+.m_footer {
+	clear: both;
+	overflow: hidden;
+	background-color: #edf0f3;
+	background-color: #ffffff;
+	border-top: #c5ced8 1px solid;
+	padding: 0.6em 0;
+	color: #666;
+	line-height: 1.2em;
+	width: 100%;
+}
+
+.footerNav {
+	clear: both;
+	overflow: hidden;
+	text-align: center;
+	line-height: 1.2em;
+	font-size: 0.9em;
+}
+
+.footerNav a {
+	font-size: 0.6em;
+	color: #666;
+}
+
+.copyRight {
+	text-align: center;
+}
+.copyRight a{
+	font-size:0.6em;
+	color: #666;
+}
+

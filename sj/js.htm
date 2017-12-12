@@ -1,0 +1,104 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=gb2312">
+<title>乾隆大藏经百度搜索</title>
+<style>
+body{margin:6px 0 0 0;padding:0;color:#000;background-color:#fff}form{margin:0}a{color:#261CDC}td{font-size:12px;line-height:18px}
+#top{margin-bottom:5px;}
+#ft{line-height:20px;background:#E6E6E6;text-align:center;color:#77c;font:12px arial}
+#gxsz th{font-size:9pt;text-align:left}
+#t1{background-color:#eee;padding:2px 0;table-layout:fixed}
+#lg{float:left;padding:0 0 9px 8px}
+#tl{height:20px;background-color:#D9E1F7;margin:0 0 0 151px;position:relative;top:22px;font-size:12px;padding:3px 0 0 7px}
+</style>
+
+</head>
+<body>
+    <div id="lg"><a href="http://www.baidu.com"><img src="http://www.baidu.com/img/logo-yy.gif" border="0" width="137" height="46"></a></div>
+    <div id="tl"><span style="float:right;margin:1px 24px"><a href="http://www.baidu.com/search/jiqiao.html">帮助</a> | <a href="http://www.baidu.com">百度首页</a></span><b>高级搜索</b></div>
+<div style="clear:both"></div>
+
+<form action="http://www.baidu.com/s" name="f1" target="_blank">
+<table width="100%" border="0" cellpadding="2" cellspacing="0" id="t1">
+<tr>
+	<td width="150" rowspan="4" valign="top"><div style="margin:18px 0 0 10px"><b>搜索结果</b></div></td>
+	<td width="300">包含以下<b>全部</b>的关键词</td>
+	<td><input id="keyword" size="35" name="q1" maxlength="100"> <input value="百度一下" type="submit"></td>
+</tr>
+<tr>
+	<td>包含以下的<b>完整关键词</b></td>
+	<td><input size="35" name="q2" maxlength="100"></td>
+</tr>
+<tr>
+	<td>包含以下<b>任意一个</b>关键词</td>
+	<td><input size="35" name="q3" maxlength="100"></td>
+</tr>
+<tr>
+	<td><b>不包括</b>以下关键词</td>
+	<td><input size="35" name="q4" maxlength="100"></td>
+</tr>
+</table>
+
+<table width="98%" cellpadding="2" cellspacing="0" border="0" style="margin:5px 0 0 10px;table-layout:fixed">
+<tr>
+	<td width="140"><b>搜索结果显示条数</b></td>
+	<td width="300">选择搜索结果显示的条数</td>
+	<td><font size="-1">
+		<select name="rn"><option value="10" selected="selected">每页显示10条</option><option value="20">每页显示20条</option><option value="50">每页显示50条</option><option value="100">每页显示100条</option></select>
+	</font></td>
+</tr>
+<tr>
+	<td><b>时间</b></td>
+	<td>限定要搜索的网页的时间是</td>
+	<td><font size="-1">
+		<select name="lm"><option value="0" selected="selected">全部时间</option><option value="1">最近一天</option><option value="7">最近一周</option><option value="30">最近一月</option><option value="360">最近一年</option></select>
+	</font></td>
+</tr>
+<tr>
+	<td><b>语言</b></td>
+	<td>搜索网页语言是</td>
+	<td><input name="ct" id="ct_0" value="0" checked="checked" type="radio"> <label for="ct_0">全部语言</label>  <input name="ct" id="ct_1" value="1" type="radio"> <label for="ct_1">仅在简体中文中</label> <input name="ct" id="ct_2" value="2" type="radio"> <label for="ct_2">仅在繁体中文中</label></td>
+</tr>
+<tr>
+	<td><b>文档格式</b></td>
+	<td>搜索网页格式是</td>
+	<td><select name="ft" size="1"><option value="">所有网页和文件</option><option value="pdf">Adobe Acrobat PDF (.pdf)</option><option value="doc">微软 Word (.doc)</option><option value="xls">微软 Excel (.xls)</option><option value="ppt">微软 Powerpoint (.ppt)</option><option value="rtf">RTF 文件 （.rtf)</option><option value="all">所有格式</option></select></td>
+</tr>
+<tr>
+	<td><b>关键词位置</b></td>
+	<td>查询关键词位于</td>
+	<td> <input name="q5" id="q5_0" value="" checked="checked" type="radio"> <label for="q5_0">网页的任何地方</label> <input name="q5" id="q5_1" value="1" type="radio"> <label for="q5_1">仅网页的标题中</label> <input name="q5" id="q5_2" value="2" type="radio"> <label for="q5_2">仅在网页的URL中</label></td>
+</tr>
+<tr>
+	<td><b>站内搜索</b></td>
+	<td>限定要搜索指定的网站是</td>
+	<td><font size="-1"><input size="35" name="q6" maxlength="100" value="qldzj.com.cn"><input type="hidden" name="tn" value="baiduadv"> </font>例如： baidu.com&#160;</td>
+</tr>
+</table>
+</form>
+
+<br>
+<div id="ft">&copy;2011 Baidu</div>
+</body>
+<script>
+var C, f1 = document.f1
+if(navigator.cookieEnabled&&/(^| )(BAIDUID=([^;]*)(;|$))/.test(document.cookie)){
+	C=RegExp.$2;
+	if(/SL=(\d)/.test(C)){
+		f1.ct[RegExp.$1].checked = true;
+	}
+	if(/NR=(\d+)/.test(C)){
+		var json = {"10":0, "20":1, "50":2, "100":3};
+		f1.rn[json[RegExp.$1]].selected = true;
+	}
+	}
+	var keyWord=document.getElementById("keyword");
+	var reg=/q=([^&]+)&?/;
+	if(location.search.indexOf("q")!=-1){
+	var wd=location.search.match(reg)[1];
+	var temp=decodeURIComponent(wd);
+	keyWord.focus();
+	keyWord.value=temp;
+}
+</script>
+</html>
