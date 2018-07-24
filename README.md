@@ -19,4 +19,5 @@
 <br>
 <br>
 试阅读地址 1: [Github](https://git.io/qldzj)<br>
-试阅读地址 2: [Coding](https://qldzj.coding.me/qldzj)
+试阅读地址 2: [Coding](https://qldzj.coding.me/qldzj)<br>
+试阅读地址 3: [Gitee](https://qldzj.gitee.io)
