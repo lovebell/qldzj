@@ -18,6 +18,7 @@
 经文来源 2: [地藏论坛乾隆大藏网站](http://www.bskk.net)
 <br/>
 <br/>
-试阅读地址 1: [Github](https://git.io/qldzj)(US)<br/>
-试阅读地址 2: [Coding](https://qldzj.coding.me/qldzj)(CN)<br/>
-试阅读地址 3: [Gitee](https://qldzj.gitee.io)(CN)
+试阅读地址 1: [Coding](https://qldzj.coding.me/qldzj)(CN)<br/>
+试阅读地址 2: [Gitee](https://qldzj.gitee.io)(CN)<br/>
+试阅读地址 3: [Github](https://git.io/qldzj)(US)<br/>
+试阅读地址 4: [bitbucket](https://qldzj.bitbucket.io)(US)<br/>
